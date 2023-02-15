@@ -54,6 +54,7 @@ li {
 	list-style: none;
 	text-align: center;
     @include nav;
+    @include img;
 }
 nav {
     margin: 9px;
