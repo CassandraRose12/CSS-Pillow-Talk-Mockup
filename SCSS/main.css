@@ -8,41 +8,6 @@ img {
   width: 100px;
 }
 
-header {
-  width: 90%;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-header div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 50%;
-  margin-bottom: 20px;
-}
-
-header div:last-child {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header h1 {
-  text-align: left;
-}
-
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,7 +40,14 @@ ul {
 
 li {
   list-style: none;
-  text-align: left;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+nav {
+  margin: 9px;
+  border-radius: 10px;
 }
 
 main {
@@ -87,7 +59,7 @@ main {
 body {
   background-color: lightblue;
   color: black;
-  margin: 20px 0;
+  margin: 20px;
   font-family: "Fredoka One", cursive;
   text-align: center;
 }
@@ -95,6 +67,38 @@ body {
 h1 {
   margin: 0;
   font-family: "Fredoka One", cursive;
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+h1 div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 h1 {
+  text-align: left;
 }
 
 h2 {

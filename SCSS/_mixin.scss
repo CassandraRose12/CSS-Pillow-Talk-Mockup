@@ -1,0 +1,27 @@
+@import "config";
+
+@mixin header {
+	width: 90%;
+	margin: auto;
+	display: $display;
+	justify-content: space-between;
+	margin-bottom: $margin_2;
+	div {
+		display: $display;
+		flex-wrap: wrap;
+		width: 50%;
+		margin-bottom: $margin_2;
+		&:last-child {
+			display: $display;
+			align-items: $align;
+		}
+	}
+	h1 {
+		text-align: left;
+	}
+}
+
+@mixin nav {
+    margin: 20px;
+    border-radius: 10px;
+}
